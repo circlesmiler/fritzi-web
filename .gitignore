@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Build output
+/dist/
+/build/
+
+# FTP deployment artifacts (if any)
+ftp-deploy.json
+
+# Git
+.git/
+
+# Environment and secrets
+.env
+.env.*
+
+# Ignore PHP endpoint secrets (if any)
+website/proxy.php.bak
+
+# Ignore workflow temp files
+.github/*.bak
+
+# Ignore map files
+*.map
+
+# Ignore other temp files
+*.tmp
+*.swp
+
+# Ignore coverage
+coverage/
+
+# Ignore test output
+/test-output/
